@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
   const products = [
     {
-      id: "product1",
-      name: "Elegant Dining Table",
-      description: "Sleek black round design dining table",
-      price: "₦ 85,000",
-      category: "dining-table",
-      image: "images/product1.jpeg",
-    },
-    {
       id: "product2",
       name: "Elegant restaurant chair",
       description: "Crafted with the finest wood, ideal for luxury restaurants.",
       price: "₦ 35,000",
       category: "restaurant-chair",
       image: "images/product2.jpeg",
+    },
+    {
+      id: "product1",
+      name: "Elegant Dining Table",
+      description: "Sleek black round design dining table",
+      price: "₦ 85,000",
+      category: "dining-table",
+      image: "images/product1.jpeg",
     },
     {
       id: "product3",
