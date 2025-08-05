@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Crafted with the finest wood, ideal for luxury restaurants.",
       price: "₦ 35,000",
       category: "restaurant-chair",
-      image: "images/product2.jpeg",
+      image: "images/product2.webp",
     },
     {
       id: "product1",
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Sleek black round design dining table",
       price: "₦ 85,000",
       category: "dining-table",
-      image: "images/product1.jpeg",
+      image: "images/product1.webp",
     },
     {
       id: "product3",
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Luxurious velvet upholstery and ergonomic design for ultimate comfort.",
       price: "₦ 80,000",
       category: "restaurant-chair",
-      image: "images/product3.jpeg",
+      image: "images/product3.webp",
     },
     {
       id: "product4",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Comfortable and stylish, with a supportive backrest for extended seating.",
       price: "₦ 80,000",
       category: "bar-stool",
-      image: "images/product4.jpeg",
+      image: "images/product4.webp",
     },
     {
       id: "product5",
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Tall legged bar stool, perfect for premium feels.",
       price: "₦ 80,000",
       category: "bar-stool",
-      image: "images/product5.jpeg",
+      image: "images/product5.webp",
     },
     {
       id: "product6",
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Unique backrest design, combining modern aesthetics with practical comfort.",
       price: "₦ 85,000",
       category: "bar-stool",
-      image: "images/product6.jpeg",
+      image: "images/product6.webp",
     },
     {
       id: "product7",
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Provides excellent back support, ideal for kitchen islands and high counters.",
       price: "₦ 80,000",
       category: "bar-stool",
-      image: "images/product7.jpeg",
+      image: "images/product7.webp",
     },
     {
       id: "product8",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Minimalist design with a polished chrome finish, a statement piece for any bar.",
       price: "₦ 75,000",
       category: "bar-stool",
-      image: "images/product8.jpeg",
+      image: "images/product8.webp",
     },
     {
       id: "product9",
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Unique backrest design, combining modern aesthetics with practical comfort.",
       price: "₦ 75,000",
       category: "restaurant-chair",
-      image: "images/product9.jpeg",
+      image: "images/product9.webp",
     },
     {
       id: "product10",
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Robust design with a raw, urban appeal, suitable for modern industrial interiors.",
       price: "₦ 130,000",
       category: "bar-stool",
-      image: "images/product10.jpeg",
+      image: "images/product10.webp",
     },
     {
       id: "product11",
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Durable and space-saving, perfect for commercial environments.",
       price: "₦ 80,000",
       category: "restaurant-chair",
-      image: "images/product11.jpeg",
+      image: "images/product11.webp",
     },
     {
       id: "product12",
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Timeless design crafted from high-quality material, offering enduring elegance.",
       price: "₦ 65,000",
       category: "dining-table",
-      image: "images/product12.jpeg",
+      image: "images/product12.webp",
     },
     {
       id: "product13",
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Comfortable and stylish, with a supportive backrest for extended seating.",
       price: "₦ 80,000",
       category: "bar-stool",
-      image: "images/product13.jpeg",
+      image: "images/product13.webp",
     },
   ]
 
