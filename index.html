@@ -6,10 +6,13 @@
     <title>Deegee Furniture in Lagos</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://tricky-ace-agency-cms-library.netlify.app/tricky-ace-cms-library.js"></script>
     <!-- Lucide Icons for Back to Top button -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
+<body data-website-id="deegee-furniture">
     <header class="hero-section" id="home">
         <div class="hero-background-overlay"></div>
         <nav class="navbar">
@@ -51,8 +54,19 @@
                     <button class="filter-btn" data-category="dining-table">Dining Tables</button>
                     <button class="filter-btn" data-category="restaurant-chair">Restaurant Chairs</button>
                 </div>
-                <div class="product-grid">
-                    <!-- Products will be injected here by JavaScript -->
+                <div class="product-grid" data-cms-section="products_list" data-cms-container>
+                    <template data-cms-template>
+                        <div class="product-card" data-category="{category}">
+                            <img src="{image}" alt="{name}" data-cms-field="image">
+                            <div class="product-info">
+                                <h3 data-cms-field="name"></h3>
+                                <p data-cms-field="description"></p>
+                                <div class="product-price" data-cms-field="price"></div>
+                                <a href="#" class="btn btn-primary shop-whatsapp-btn" data-cms-field = "name"
+                                data-product-name="{name}">Shop on WhatsApp</a>
+                            </div>
+                        </div>
+                    </template>
                 </div>
             </div>
         </section>
