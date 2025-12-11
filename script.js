@@ -22,17 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // **WhatsApp button handler**
-  document.querySelector('.product-grid')?.addEventListener("click", (event) => {
-    if (event.target.classList.contains("shop-whatsapp-btn")) {
-      event.preventDefault();
-      const productName = event.target.dataset.productName;
-      const whatsappMessage = encodeURIComponent(`Hi, I'm interested in the ${productName} I saw on your website.`);
-      const whatsappUrl = `https://wa.me/2347088771679?text=${whatsappMessage}`;
-      window.open(whatsappUrl, "_blank");
-    }
-  });
-
   // **UI Code**
   hamburgerMenu.addEventListener("click", () => {
     hamburgerMenu.classList.toggle("active");
